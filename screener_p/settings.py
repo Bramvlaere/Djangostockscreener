@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-v3ma4i=yg-#c0d@lt)bh0)5ci@4_7f#kt43czaw!se!#fgsg^p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'screener_p.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/vanlaere/Documents/Code immersives fall 2021/Django-StockScreener/screener_p/SSCREENER'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
